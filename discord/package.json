@@ -1,0 +1,33 @@
+{
+  "name": "discord",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.ts",
+    "build": "cp .env ./dist/.env && npx tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chart.js": "^3.5.1",
+    "chartjs-node-canvas": "^4.1.6",
+    "discord.js": "^14.10.2",
+    "dotenv": "^16.0.3",
+    "moment-timezone": "^0.5.43",
+    "node-schedule": "^2.1.1",
+    "openai": "^4.11.0",
+    "socket.io": "^4.6.1",
+    "socket.io-client": "^4.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.1.0",
+    "@types/node-schedule": "^2.1.1",
+    "eslint": "^8.39.0",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}

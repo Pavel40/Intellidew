@@ -1,0 +1,48 @@
+{
+    "soilMoistureProcessor": {
+        "soil_moisture_sensor_1_old": {
+            "542": 0,
+            "436": 16,
+            "270": 28,
+            "266": 33
+        },
+        "soil_moisture_sensor_1": {
+            "530": 0,
+            "329": 9,
+            "301": 16,
+            "294": 22,
+            "292": 27
+        },
+        "soil_moisture_thermometer_vnorovy_1": {
+            "530": 0,
+            "329": 9,
+            "301": 16,
+            "294": 22,
+            "292": 27
+        }
+    },
+    "notifier": {
+        "discord": [
+            "thermometer_1",
+            "soil_moisture_sensor_1",
+            "flow_meter_1",
+            "pump_controller_1"
+        ]
+    },
+    "watering": {
+        "maxWateringTemperature": 20,
+        "minWateringTemperature": 5,
+        "minWateringSoilMoisturePercentage": 39,
+        "wateringDurationMinutes": 60,
+        "thermometerID": "thermometer_1",
+        "soilMoistureSensorID": "soil_moisture_sensor_1"
+    },
+    "deviceConnectionProblemDetector": {
+        "devices": [
+            "thermometer_1",
+            "soil_moisture_sensor_1",
+            "flow_meter_1",
+            "pump_controller_1"
+        ]
+    }
+}
